@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Admission Form - Grade 11/12</title>
+</head>
+<body>
+
+    <!-- Main heading for the form -->
+    <h1>College Admission Form - Grade 11/12</h1>
+
+    <!-- Start of form -->
+    <form>
+
+        <!-- Personal Information Section -->
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <!-- First Name field -->
+            <label>First Name:</label><br>
+            <input type="text" required><br><br>
+
+            <!-- Last Name field -->
+            <label>Last Name:</label><br>
+            <input type="text" required><br><br>
+
+            <!-- Date of Birth field -->
+            <label>Date of Birth:</label><br>
+            <input type="date" required><br><br>
+
+            <!-- Gender dropdown -->
+            <label>Gender:</label><br>
+            <select required>
+                <option value="">--Select--</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+            </select><br><br>
+        </fieldset><br>
+
+        <!-- Contact Details Section -->
+        <fieldset>
+            <legend>Contact Details</legend>
+
+            <!-- Address field -->
+            <label>Address:</label><br>
+            <textarea rows="1" cols="20" required></textarea><br><br>
+
+            <!-- Phone number field -->
+            <label>Phone Number:</label><br>
+            <input type="tel" required><br><br>
+
+            <!-- Email field -->
+            <label>Email:</label><br>
+            <input type="email" required><br><br>
+        </fieldset><br>
+
+        <!-- Academic Information Section -->
+        <fieldset>
+            <legend>Academic Information</legend>
+
+            <!-- Stream dropdown -->
+            <label>Stream Applying For:</label><br>
+            <select required>
+                <option value="">--Select--</option>
+                <option>Science</option>
+                <option>Management</option>
+                <option>Humanities</option>
+                <option>Law</option>
+            </select><br><br>
+
+            <!-- Previous school name -->
+            <label>Previous School Name:</label><br>
+            <input type="text" required><br><br>
+
+            <!-- Grade 10 results -->
+            <label>Grade 10 GPA/Percentage:</label><br>
+            <input type="text" required><br><br>
+        </fieldset><br>
+
+        <!-- Submit and Reset buttons -->
+        <input type="submit" value="Submit Application">
+        <input type="reset" value="Reset Form">
+
+    </form>
+</body>
+</html> 
